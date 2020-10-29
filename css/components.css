@@ -1,0 +1,61 @@
+.llista{
+    width: 70%;
+    margin: 10px auto;
+    /* background-color: #8892BF; */
+    border: 4px solid #8892BF;
+    border-radius: 5px;
+    /* color:#fff; */
+    text-align: center;
+}
+
+.llista ul li{
+    list-style: none;
+    padding: 10px;
+}
+p{
+    text-align: center;
+    padding: 10px;
+}
+.taula{
+    width: 70%;
+    margin: 10px auto;
+}
+.taula h3{
+    text-align: center;
+}
+.taula table{
+    width: 100%;
+}
+.taula table thead{
+    background-color: #8892BF;
+    color: #fff
+    ;
+    
+}
+.taula table thead tr th{
+    padding: 10px;
+}
+.taula table tbody tr td{
+    padding: 10px;
+    text-align: center;
+}
+.escrits{
+    width: 70%;
+    margin: 10px auto;
+    
+}
+.escrits h3{
+    text-align: center;
+}
+.escrits p{
+    padding: 10px;
+}
+.final{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.final a{
+    text-decoration: none;
+    padding: 10px;
+}

@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cap{
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #8892BF;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #8892BF;
+
+}
+.navbar a{
+    
+    margin: 10px;
+}
+.principal{
+    margin: 10px auto;
+    width: 50%;
+    background-color:  #8892BF;
+    border-radius: 5px;
+}
+.principal h3{
+    text-align: center;
+    padding: 10px;
+    color:#fff;
+}
+.general{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.formulari{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+}
+.formulari input,select{
+    margin: 10px ;
+   padding: 10px;
+   border-radius: 5px;
+
+}
+.boto{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+.boto button{
+    margin: 10px ;
+    padding: 10px;
+    background-color:#8892BF ;
+    color: #fff;
+    border: 2px solid #57A49E;
+    border-radius: 5px;
+    font-size: 1.3em;
+ 
+}
+footer{
+    background-color: #8892BF;
+    padding: 20px;
+}
+footer p{
+    color: #fff;
+    text-align: center;
+}
+@media (max-width: 570px) {
+	.principal {
+		width: 90%;
+	}
+}
